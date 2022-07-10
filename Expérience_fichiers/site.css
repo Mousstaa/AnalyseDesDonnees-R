@@ -1,0 +1,171 @@
+body {
+    background-color: #202020;
+    font-family: Calibri;
+    color: white;
+}
+
+#cadre-intro {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 2%;
+    border: 4px solid white;
+    width: 1000px;
+    height: 700px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#consigne-fin-entrainement {
+    display: none;
+}
+
+#img {
+    border: 4px solid white;
+    border-radius: 15px;
+    height: 290px;
+    width: 630;
+}
+
+#bouton-commencer {
+    position: absolute;
+    text-align: center;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    border: 1px solid darkgrey;
+    border-radius: 10px;
+    background-color: #909090;
+    line-height: 50px;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#bouton-commencer:hover {
+    background-color: #101010;
+}
+
+#cadre-experience {
+    position: relative;
+    margin: 0 auto;
+    width: 1000px;
+    height: 700px;
+    display: none;
+}
+
+#cadre-exp {
+    position: absolute;
+    margin: 0 auto;
+    border: 3px solid white;
+    border-radius: 20px;
+    width: 1000px;
+    height: 700px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#bouton-start {
+    position: absolute;
+    text-align: center;
+    cursor: pointer;
+    width: 188.97637795px;
+    height: 75.590551181px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 50px;
+    color: black;
+    line-height: 70px;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 10px;
+}
+
+#bouton-start:hover {
+    background-color: grey;
+}
+
+#affichage-stimulus {
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 370px;
+    height: 180px;
+    border: 4px solid white;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 50px;
+    line-height: 170px;
+}
+
+#rouge,
+#vert,
+#bleu,
+#jaune {
+    position: absolute;
+    width: 188.976377953px;
+    height: 151.181102362px;
+    border: 4px solid white;
+    background-color: #202020;
+    font-size: 40px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 140px;
+    border-radius: 15px;
+}
+
+#rouge {
+    margin-top: 10%;
+    margin-left: 1%;
+}
+
+#bleu {
+    margin-top: 1%;
+    margin-left: 21.5%;
+}
+
+#jaune {
+    margin-top: 1%;
+    margin-left: 58.5%;
+}
+
+#vert {
+    margin-top: 10%;
+    margin-left: 79%;
+}
+
+#fin {
+    display: none;
+    border: 4px solid white;
+    text-align: center;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 50px 4em 3em 50px;
+    margin-top: 23px;
+    margin-bottom: 45px
+}
+
+#center-img {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 100%;
+}
+
+#center-imgEnt {
+    position: absolute;
+    margin-left: -216px;
+    margin-top: 80;
+    width: 45%;
+}
+
+#affichage-compteur {
+    font-size: 40px;
+    text-align: center;
+    line-height: 1;
+}
